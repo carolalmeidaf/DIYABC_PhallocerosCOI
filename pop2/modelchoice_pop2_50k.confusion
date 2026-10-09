@@ -1,0 +1,6 @@
+Prior error rate: 0.4959
+
+Class specific prediction errors:
+                1     2 class.error
+predicted 1     7205  7133   0.497489
+predicted 2     17662 18000  0.495261
