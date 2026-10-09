@@ -1,0 +1,46 @@
+PHCOI_pop1.mss
+6 parameters and 8 summary statistics
+
+2 scenarios: 2 4
+scenario 1 [0.5] (1)
+N
+0 sample 1
+scenario 2 [0.5] (5)
+N1 N2 N3
+0 sample 1
+t1 VarNe 1 N2
+t2 VarNe 1 N3
+
+historical parameters priors (6,0)
+N N UN[10,10000,0,0]
+N2 N UN[10,10000,0,0]
+N3 N UN[10,10000,0,0]
+N1 N UN[10,10000,0,0]
+t1 T UN[10,12000,0,0]
+t2 T UN[24000,32000,0,0]
+
+loci description (1)
+LoCus_S_M_1_ <M> [S] G1 569
+
+group priors (1)
+group G1 [S]
+MEANMU UN[4.37175e-09,1.1952825e-07,0,0]
+GAMMU GA[1e-09,1e-06,Mean_u,2]
+MEANK1 UN[0.05,20,0,0]
+GAMK1 GA[2.49626756e-06,6.825063244e-05,Mean_k1,2]
+MEANK2 UN[0.05,20,10,2]
+GAMK2 GA[0.05,20,Mean_k2,2]
+MODEL K2P 10 2
+
+group summary statistics (8)
+group G1 (8)
+NHA 1
+NSS 1
+MPD 1
+VPD 1
+DTA 1
+PSS 1
+MNS 1
+VNS 1
+
+scenario N N2 N3 N1 t1 t2 µseq_1 k1seq_1   NHA_1_1       NSS_1_1       MPD_1_1       VPD_1_1       DTA_1_1       PSS_1_1       MNS_1_1       VNS_1_1    

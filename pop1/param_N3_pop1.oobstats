@@ -1,0 +1,26 @@
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 2.7097224898253858
+                      MSE : 8525957.01508053
+                     NMSE : 12143.953648802712
+Computed from the median taken as point estimate
+                     NMAE : 2.8126233633356503
+                      MSE : 8834544.747551315
+                     NMSE : 12815.552452253462
+Confidence interval measures
+             90% coverage : 0.8904       
+              Mean 90% CI : 8927.40349010246
+     Mean relative 90% CI : 6.226722274091035
+            Median 90% CI : 8939         
+   Median relative 90% CI : 1.7739407848812596
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 2.814639335032647
+                      MSE : 9074930.479242953
+                     NMSE : 12872.605274278454
+Computed from the median taken as point estimate
+                     NMAE : 1.9129552144683077
+                      MSE : 10103382.895303702
+                     NMSE : 8958.725781611605
+
