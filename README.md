@@ -272,32 +272,5 @@ The original parser was not supplied; a substitute parser is not included becaus
 
 Reported main checks: Pop1 DTA lower-tail proportions were approximately 0.0032 and 0.0033 under Scenarios 1 and 2. The reported VNS zero frequencies were 86.8305–87.7424% for Pop2 and 88.7823–89.6861% for Pop3. These univariate checks do not establish overall model adequacy or favor one scenario.
 
-## 8. COI landscape-genetic analyses
 
-The supplied methods also report pairwise Phi-ST, Mantel tests, and MMRR. If these analyses belong in this repository, add their original script and exact inputs; the DIYABC MSS files alone do not reproduce them.
 
-Required inputs include the focal COI alignment, locality assignments, coordinates or the original geographic-distance matrix, compartment assignments, and the exact pairwise Phi-ST matrix. Record coordinate reference system/distance units, handling of negative Phi-ST values and missing data, permutation settings, seeds, predictor coding/scaling, and R/package versions.
-
-Recorded analyses:
-
-- Pearson and Spearman Mantel tests of Phi-ST against geographic distance: 9,999 permutations; reported `r = 0.6093, P = 0.0002` and `rho = 0.6765, P = 0.0001`.
-- MMRR with Phi-ST as response and geographic distance plus compartment as predictors: reported compartment coefficient `0.8519495, P = 0.0005`; distance coefficient `0.000477755, P = 0.3621`; `R² = 0.9439183`.
-
-The exact script, compartment-matrix coding, scaling, MMRR permutation count, and seeds are absent from the supplied record. Do not reconstruct these choices solely from the reported coefficients. Results describe associations, not a demonstrated causal effect of compartment.
-
-## 9. Release checklist
-
-Before publishing a reproducibility release:
-
-- Add the three final MSS inputs and verify 569 bp and the reported compartment sample counts.
-- Add sequence-to-locality mapping and complete matching project configurations.
-- Verify Pop2 historical priors against its final header.
-- Archive the three final RF tables and matching observed-statistic files.
-- Recover the simulation invocation, seed/state, and original scripts for prior checks and landscape analyses.
-- Record software provenance, default settings, container digest, and input checksums.
-- Keep original outputs separate from reruns; verify the result tables above against original output files.
-- Run the pipeline on actual inputs and record any differences from the archived results.
-- If a file cannot be committed through the chosen GitHub upload route, use a suitable large-file/archive route and provide its stable retrieval link plus SHA-256; do not omit reference tables without providing regeneration instructions.
-- Choose appropriate licenses for authored code and data, and cite the software used.
-
-No GitHub repository was supplied, and this package has not been uploaded to GitHub.
